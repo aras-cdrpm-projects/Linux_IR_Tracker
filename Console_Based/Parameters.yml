@@ -1,0 +1,45 @@
+%YAML:1.0
+---
+calibration_time: "‫شنبه ۰۵ اوت ۱۷، ۰۵:۳۶:۱۲‬"
+image_width: 640
+image_height: 480
+board_width: 8
+board_height: 6
+square_size: 3.9000000804662704e-02
+aspectRatio: 1.
+flags: 2
+
+camera_matrix_left: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [380.279920248475, 0.15259409082436654, 186.84108892443405, 0., 374.5552988557734, 317.39721501976788, 0., 0., 1.]
+
+camera_matrix_right: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [402.90066862108733, -18.126605547911964, 468.06842662914789, 0., 389.29144832863943, 254.97512904853036, 0., 0., 1.]
+distortion_model: plumb_bob
+distortion_coefficients_left: !!opencv-matrix
+  rows: 1
+  cols: 5
+  dt: d
+  data: [-0.2194530480147962, 0.083052061438083843, -0.0036099468259902009, -0.0081919458809772486, -0.013461210506416764]
+
+distortion_coefficients_right: !!opencv-matrix
+  rows: 1
+  cols: 5
+  dt: d
+  data: [-0.17879874568914939, 0.046256669078649663, -0.0036099468259902009, -0.0081919458809772486, -0.0056541737764824376]
+
+rotation_matrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [0.98669508597394373, -0.013528011445509743, -0.16201790092826779, 0.017689533288007344, 0.99954890822622566, -0.024270568098269496, 0.16161648346293245, 0.026813671328082142, 0.98648930014622327]
+translation_matrix: !!opencv-matrix
+  rows: 3
+  cols: 1
+  dt: d
+  data: [-475.74862970094495, 8.8182263541177743, -33.662666846500308]

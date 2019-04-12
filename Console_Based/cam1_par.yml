@@ -1,0 +1,24 @@
+%YAML:1.0
+---
+calibration_time: "‫شنبه ۰۵ اوت ۱۷، ۰۵:۰۹:۴۱‬"
+image_width: 640
+image_height: 480
+board_width: 8
+board_height: 6
+square_size: 3.9000000804662704e-02
+aspectRatio: 1.
+flags: 2
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 6.4612516946376695e+02, 0., 1.6009432720461396e+02, 0.,
+       6.4612516946376695e+02, 2.7459741756509396e+02, 0., 0., 1. ]
+distortion_coefficients: !!opencv-matrix
+   rows: 5
+   cols: 1
+   dt: d
+   data: [ -4.5001568537677333e-01, 2.5081359988845087e-01,
+       -4.5247067025277901e-05, 4.6443662326715058e-03,
+       -7.7914406291377303e-02 ]
+avg_reprojection_error: 7.9458718089173619e-01
